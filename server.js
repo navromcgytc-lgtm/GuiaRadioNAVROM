@@ -81,7 +81,7 @@ app.post("/mix", async (req, res) => {
 
     return res.json({
       ok: true,
-      final_video_url: `file://${outputPath}`
+      final_video_url: publicUrl
     });
 
   } catch (e) {
